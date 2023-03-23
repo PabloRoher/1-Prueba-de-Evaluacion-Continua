@@ -14,7 +14,7 @@ public class Tablero {
         int fila = 0;
         int columnas = 0;
 
-        try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/Eljuegodelavida/matriz.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("src/main/java/Eljuegodelavida/dominio/matriz.txt"))) {
             String linea;
 
             while ((linea = br.readLine()) != null) {
@@ -39,4 +39,19 @@ public class Tablero {
     public void transitarAlEstadoSiguiente() {
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (int fila = 0; fila < DIMENSION; fila++) {
+            for (int columna = 0; columna < DIMENSION; columna++) {
+                if (estadoActual[fila][columna] == 1) {
+                    sb.append("* ");
+                } else {
+                    sb.append(". ");
+                }
+            }
+            sb.append("\n");
+        }
+        return sb.toString();
+    }
 }

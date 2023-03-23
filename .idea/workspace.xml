@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31de3ff9-5285-4efe-ac78-463969f9e567" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Eljuegodelavida/Aplicacion/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Eljuegodelavida/dominio/matriz.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Eljuegodelavida/dominio/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Eljuegodelavida/dominio/Tablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Eljuegodelavida/matriz" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +40,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/pablo/OneDrive/Escritorio/Tecnicas de programacion/ExamenEvaluacion/ElJuegoDeLaVida"
+    "last_opened_file_path": "C:/Users/pablo/OneDrive/Escritorio/Tecnicas de programacion/ExamenEvaluacion/JuegoDeLaVidaBeta"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pablo\OneDrive\Escritorio\Tecnicas de programacion\PruebaEvaluacionContinua1\src\main\java\Eljuegodelavida\dominio" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679594530103</updated>
-      <workItem from="1679594531144" duration="3569000" />
+      <workItem from="1679594531144" duration="4739000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1679594627297</created>
@@ -73,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679597451313</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Segundo Ejercicio clase Principal">
+      <created>1679598145053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679598145053</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +96,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Primer Ejercicio" />
     <MESSAGE value="Segundo Ejercicio no terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segundo Ejercicio no terminado" />
+    <MESSAGE value="Segundo Ejercicio clase Principal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Segundo Ejercicio clase Principal" />
   </component>
 </project>
