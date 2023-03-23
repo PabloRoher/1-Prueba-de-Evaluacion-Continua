@@ -9,7 +9,7 @@ public class Tablero {
     private int[][] estadoActual;
     private int[][] estadoSiguiente = new int[DIMENSION][DIMENSION];
 
-    public void leerEstadoActual(){
+    public void leerEstadoActual() {
 
         int fila = 0;
         int columnas = 0;
@@ -32,4 +32,11 @@ public class Tablero {
             e.printStackTrace();
         }
     }
+
+    public void generarEstadoActualPorMontecarlo() {
+    }
+
+    public void transitarAlEstadoSiguiente() {
+    }
+
 }
